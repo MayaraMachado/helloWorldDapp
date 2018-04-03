@@ -1,0 +1,17 @@
+.div_texto{
+	text-align: center; 
+	padding: 50px 10px; 
+	margin-top:100px; 
+	margin-bottom: 10px; 
+	font-size: 120px
+}
+
+.input_form{
+	text-align: center;
+}
+
+.botaoValue{
+	margin-top: 15px; 
+	background-color: gray; 
+	border: 0px
+}
