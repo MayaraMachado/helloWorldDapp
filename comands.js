@@ -1,7 +1,10 @@
+//Comandos para compilar o smart contract e fazer a conexão com do web3.js, integrando o smart contract a aplicação js.
+//Compilar no terminal ou atribuir ao script .js da aplicação
+
 const fs = require("fs"),
       abiDecoder = require('abi-decoder'),
       Web3 = require('web3'),
-	  solc = require('solc');
+      solc = require('solc');
 
 const web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 const code = fs.readFileSync('hello.sol').toString();
